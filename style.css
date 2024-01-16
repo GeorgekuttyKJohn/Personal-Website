@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-color: #022a30;
+    color: #b6cbce;
+    font-family:"Bai Jamjuree" sans-serif;
+    
+}
+
+
+
+/* navbar */
+.navbar {
+    background-color: #033f47;
+}
+
+.sticky-navbar {
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 20%;
+     
+}
+
+
+.navbar a {
+    font-family: "Bai Jamjuree" sans-serif;
+    font-size: larger;
+    color: #eef3db;
+}
+
+
+
+.home img{
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+    /* border-color: white; */
+    border: 2px solid  #e0f780; 
+    transition: transform 0.3s ease-in-out;
+    box-shadow: -10px -10px 15px #000;
+
+
+    
+}
+
+.home img:hover{
+    transform: scale(1.1); 
+
+}
+
+
+/* containers */
+.container{
+    text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+    
+    
+}
+
+.container p{
+    text-align: center;
+    font-family: "Bai Jamjuree" sans-serif;
+    
+ 
+}
+
+.container a{
+    color: #eef3db;
+    font-family: "Bai Jamjuree" sans-serif;
+    font-weight: 600;
+
+}
+
+.container a:hover{
+    color: #c1e920; 
+}
+
+
+.container h2{
+    color: #eef3db;
+    font-size: 30px;
+}
+
+
+
+.container1{
+    text-align: center;
+    display: flex;
+    float: center;
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+
+ 
+}
+
+
+.container1 h1{
+    font-family: "Bai Jamjuree" sans-serif;
+
+    color: #eef3db;
+    /* font-weight: 700; */
+    font-size: 50px;
+}
+
+.container1 h2{
+    color: #eef3db;
+    font-size: 30px;
+
+}
+
+.container2{
+    max-width: 500px;
+    max-height: 300px;
+    margin: 5% auto;
+    padding: 5%;
+  
+    border-radius: 15px;
+    float:center;
+   
+    
+}
+
+
+.container3{
+    border: 2px solid white;
+    border-radius: 1%;
+   
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.container3 h6{
+    color: #eef3db;
+    font-weight: 700; 
+    text-align: center;  
+    font-family: "Bai Jamjuree" sans-serif;
+}
+
+.container4 {
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.container4:hover {
+    transform: scale(1.1); 
+}
+
+
+
+.container5{
+    width: 600px;
+    margin: 0 auto; 
+    text-align: center; 
+    border: 2px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+.container5:hover{
+    transform: scale(1.1); 
+
+}
+
+.container5 h5{
+
+    color: #eef3db;
+    font-weight: 700; 
+    text-align: center;  
+    font-family: "Bai Jamjuree" sans-serif;
+
+}
+
+.container5 p{
+    color: #eef3db;
+    text-align: center;  
+    font-family: "Bai Jamjuree" sans-serif;
+
+}
+
+.container6{
+    width: 600px;
+    height: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    border-radius: 1px
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+        max-width: 600px;
+        margin: 0 auto; /* Center the container horizontally */
+      }
+
+
+.container7{
+    border-radius: 1%;
+   
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}      
+
+     
+      .button{
+        width: 100px;
+        height: 40px;
+        margin: 10px;
+        background:  #033f47;
+        color: #eef3db;
+        font-size: 22px;
+        font-weight: 600;
+        border: 0px;
+        border-radius: 10%;
+        box-shadow: -5px -6px 15px #000;
+        outline: 1px solid #313131;
+        outline-offset: 3px;
+        cursor: pointer;
+    }
+    
+    button:hover{
+        background:  #022e34;
+        transform: translate(2px,2px);
+    
+    }
+
+    .btn-box a{
+        font-family: "Bai Jamjuree" sans-serif;
+        color:  #eef3db ;
+        font-weight: 600;
+
+
+    }
+
+    .btn-box a:hover{
+        color: #c1e920; 
+
+
+    }
+
+
+
+
+.text-brand {
+    color: #e0f780;
+}
+
+p{
+    text-align: justify;
+    color: #eef3db; 
+    margin: 20px;
+}
+
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+    box-shadow: -6px 6px  #e0f780;
+}
+
+/* .iconbox {
+    width: 800px;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: #033f47;
+    color: #033f47;
+}
+
+.iconbox h5{
+
+        color: #eef3db;
+        font-weight: 700;   
+}
+
+.iconbox p{
+    color: #eef3db;
+    font-size: 20px
+    ;
+} */
+
+
+.p1{
+    color: #eef3db;
+    text-align: center;  
+    font-family: "Bai Jamjuree" sans-serif;
+    font-size: 12px;
+}
+
+.progress-bar-animated{
+    animation: progress-bar 1s linear forwards;
+
+}
+
+@keyframes progress-bar{
+    100%{
+      width: 86%;
+    }
+  }
+
+
+
+
+.card{
+    background-color: #033f47;
+    width: 20rem;
+     background-color:  #033f47;
+     transition: transform 0.3s ease-in-out;
+     width: 300px;
+     height: auto;
+    }
+    .card:hover{
+        transform: scale(1.1); 
+    
+    }
+
+    .card-img-top{
+        padding-top: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+
+
+
+    .card-text{
+        font-family: "Bai Jamjuree" sans-serif;
+
+    color: #eef3db;
+
+    }
+    
+
+
+    .contact-form h2{
+        color: #eef3db;
+        font-size: 30px;
+    
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 8px;
+      background:  #033f47;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .contact-form ::placeholder{
+        color: #b6cbce;
+    }
+    
+    .contact-form button {
+        width: 600px;
+      background-color:  #e0f780;
+      color:#022a30;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family:"Bai Jamjuree" sans-serif ;
+    }
+    
+    .contact-form button:hover {
+      background-color: #c1e920;
+    }
+
+
+    .social-icons  {
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #033f47;
+        border-radius: 100px;
+        font-size: 24px;
+    }
+
+    .fa-brands {
+        color:  #eef3db ;
+    }
+
+    .fa-brands:hover{
+        color: #c1e920; 
+    }
+
+    .fa-solid{
+        color:  #eef3db ;
+
+    }
+
+    .fa-solid:hover{
+        color: #c1e920; 
+    }
+
+
+
